@@ -1,0 +1,7 @@
+SPSoftwareDataType SPHardwareDataType
+
+curl -L "https://raw.githubusercontent.com/RelayTechIT/Mac/refs/heads/main/mac_GetUserAndStartupAgents.sh" | sudo bash
+
+curl -L "raw.githubusercontent.com/RelayTechIT/Mac/refs/heads/main/mac_diagnostics.sh" | sudo bash
+cat $OUTPUT_FILE
+rm $OUTPUT_FILE
