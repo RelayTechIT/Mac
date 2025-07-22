@@ -1,4 +1,4 @@
-SPSoftwareDataType SPHardwareDataType
+system_profiler SPSoftwareDataType SPHardwareDataType
 
 curl -L "https://raw.githubusercontent.com/RelayTechIT/Mac/refs/heads/main/mac_GetUserAndStartupAgents.sh" | sudo bash
 
