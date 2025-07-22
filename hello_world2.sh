@@ -1,1 +1,1 @@
-echo "$(var)"
+echo "$var"
